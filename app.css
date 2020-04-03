@@ -1,0 +1,98 @@
+body {
+    background-color: black;   
+}
+h1 {
+    color: white;
+    position: absolute;
+    width: 200px;
+    margin-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    width: 200px;
+    margin-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-top:260px;
+}
+
+#score {
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+    width: 100px;
+    height: 75px;
+    margin-left: 40px;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 100px;
+    display: flex;    
+    font-size: 65px;
+}
+
+#low-score {
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+    width: 100px;
+    height: 75px;
+    margin-left: 40px;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 300px;
+    display: flex;    
+    font-size: 65px;
+    background-color: lightseagreen;
+}
+
+.gray {
+    background-color: gray;
+}
+
+button {
+    color: white;
+    background-color: magenta;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 40px 100px 0px 100px;
+}
+
+.top {
+    margin-top: 150px;
+}
+
+div {
+    border: 1px solid black;
+    height: 120px;
+    width: 80px;
+    margin-left: 40px;
+    display: flex;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+}
+
+#game-over {
+    justify-items: center;
+    text-align: center;
+    width: 100px;
+    height: 75px;
+    margin-left: 40px;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 400px;
+    display: flex;    
+    font-size: 65px;
+    color: white;
+}
