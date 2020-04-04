@@ -15,7 +15,7 @@ function randomColors() {
     return cardArray;    
 }
 // hide the cards with initial page load
-const divs = document.querySelectorAll('div');
+const divs = document.querySelectorAll('.cards > div');
 for (let dsp of divs) {
     dsp.style.display = 'none';
 }
@@ -28,6 +28,9 @@ let card1;
 let card2;
 let guesses;
 let clickCount;
+if (localStorage.getItem('lowScore') != null) {
+    lowScore.innerText = localStorage.getItem('lowScore');
+}
 
 
 
